@@ -1,0 +1,64 @@
+git commands:
+ls								# show all the file directory
+git ls-files 					#shows all the file in staging area
+git rm filename.txt  			#remove the files from working directory and staging area
+git rm -r. 						#remove all the files from working directory and staging area
+git rm --cached filename.txt 	# remove the files from only staging
+rm filename.txt 				#remove the files from only working directory
+clear 							# clear the screen
+pwd  							#go to present working directory folder
+cd  							# change directory
+git log  						# show the commited files how many times
+cat filename.txt				# show the content of the file
+git branch 						#to view branch
+git branch branchname(br1)		#create new branch
+git checkout branchname(main)	#switch to other branch
+  for every modified files in git using combined commands as
+cmd: git commit -a -m "both files are modified"
+
+
+steps:
+step 1: create a local repo
+ to create new repo
+git init
+
+
+
+Git
+working project---> staging area--->remote repo
+
+steps 1:
+got to c drive right click and open in git bash
+create a project folder as myproject
+cmd: cd myproject
+
+steps 2:
+step 1: create a local repo
+ to create new repo 
+cmd:git init
+
+step 2 
+
+cmd:git status
+
+show the untracked files
+
+step 3 
+add files to statging area 
+cmd: git add filename(a.txt)
+
+step 4: commit
+move to local repo
+before commiting we should configure who should use
+git config --global user.email "your emailid"
+git config --global user.name "your name"
+
+cmd :git commit -m "first commit" (commit message) 
+are files are move to remote repo
+now check git status
+it will show like this 
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+
