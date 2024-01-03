@@ -1,0 +1,12 @@
+git init
+git config --global user.name
+git config --global user.email "gayathrinarayani20@gmail.com"
+git status
+git add filename.txt
+git status
+git commit -m "first commit"
+git branch
+git branch -M main
+git remote add origin link of remote repo
+git remote -v
+git push origin main
